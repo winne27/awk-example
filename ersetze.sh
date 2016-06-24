@@ -1,5 +1,5 @@
 #!/bin/bash
-ANWE=(AENDERUNGSDIENST_HV ANIS     ARDAP          BESTANDSBEWERTUNG BSP     FAXINFOSYSTEME KLEINANWENDUNGEN KUNDENSTAMM     LIEFERANTENSTAMM     VAS     WEBSERVICE)
+ANWE=(aw1 aw2)
 echo "Start" > /home/sag/schaeffer/ersetze.log
 echo "Start" > /home/sag/schaeffer/ersetze.stat
 for (( i = 0 ; i < ${#ANWE[@]} ; i++ ))
